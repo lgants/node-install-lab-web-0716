@@ -1,7 +1,7 @@
 var expect = require('chai').expect,
   cp = require('child_process'),
   semver = require('semver')
-
+ 
 describe('node version', function () {
   it('must be defined', function(done){
     expect(process.versions.node).to.exist
